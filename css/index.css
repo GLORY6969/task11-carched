@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form {
+  margin: 100px auto;
+  width: 60%;
+  box-shadow: 12px rgba(0, 0, 0, 0.1);
+}
+.form .progress {
+  margin-bottom: 50px;
+}
+/* ##########################################3 */
+.form .frist-form {
+  background-color: rgb(221, 253, 253);
+  border-radius: 10px;
+  padding: 40px 25px;
+  border: 3px solid rgb(238, 244, 250);
+  /* display: none; */
+}
+.form .frist-form .btn {
+  padding: 8px 40px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+@media (max-width: 800px) {
+  .form {
+    width: 90%;
+  }
+  .frist-form {
+    padding: 30px 2px !important;
+    margin: 0;
+  }
+}
+/* ########################## */
+.form .scnd-form {
+  background-color: rgb(221, 253, 253);
+  border-radius: 10px;
+  padding: 40px 25px;
+  border: 3px solid rgb(238, 244, 250);
+  display: none;
+}
+.form .scnd-form .btn {
+  padding: 8px 40px;
+  border-radius: 20px;
+  font-weight: 500;
+  margin: 5px;
+}
+.form .scnd-form .btns {
+  margin-top: 50px;
+  margin-left: 15px;
+}
+@media (max-width: 800px) {
+  .form .scnd-form .btns {
+    margin-top: 40px;
+    margin-left: 2px;
+  }
+}
+/* ################################## */
+.form .third-form .btn {
+  padding: 8px 40px;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.form .third-form .submit {
+  padding: 8px 30px;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.form .third-form {
+  display: none;
+  background-color: rgb(221, 253, 253);
+  border-radius: 10px;
+  padding: 40px 25px;
+  border: 3px solid rgb(238, 244, 250);
+}
+/* ################################### */
+.form .fourth-form {
+  display: none;
+  background-color: rgb(221, 253, 253);
+  border-radius: 10px;
+  padding: 40px 25px;
+  border: 3px solid rgb(238, 244, 250);
+}
+.form .fourth-form h1 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
